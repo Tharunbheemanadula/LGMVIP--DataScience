@@ -1,0 +1,8 @@
+Natural language processing has been an area of research and used widely in different applications.
+We often love texting each other and find that whenever we try to type a text a suggestion poops up trying to predict 
+the next word we want to write. This process of prediction is one of the applications NLP deals with. 
+We have made huge progress here and we can use Recurrent neural networks for such a process. There have been difficulties in basic RNN
+Why use LSTM?
+Vanishing gradient descend is a problem faced by neural networks when we go for backpropagation
+as discussed here. It has a huge effect and the weight update process is widely affected and the model became useless. 
+So, we used LSTM which has a hidden state and a memory cell with three gates that are forgotten, read, and input gate.
